@@ -13,6 +13,68 @@
   }
 }
 
+.header{
+  background-color: aqua;
+  height: 60px;
+  display: flex;
+  width:"100%";
+  max-width: "100%";
+}
+
+.main{
+  background-size: cover;
+}
+
+.gif
+  {
+   display: flex;
+   justify-content: center;
+   height: 480px;
+   background-size: cover;
+  }
+
+  .eachItem{
+    padding: 20px;
+    text-decoration: transparent;
+    color: black;
+  }
+
+ .link {
+   text-align: center;
+  }
+
+  .eachItem :hover{
+    padding: 5px;
+    background-color: rgb(149, 205, 207);
+    box-shadow: 0 0 10px rgb(149, 205, 207);
+  }
+
+.Products{
+display: flex;
+flex-direction: row;
+margin-left: 150px;
+margin-right: 150px;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.text{
+  text-decoration: transparent;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #282c34;
+  margin-left: 30px;
+}
+
+.align{
+  text-align: center;
+}
+
+.title{
+  text-align: center;
+}
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
